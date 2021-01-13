@@ -19,30 +19,50 @@
       </a>
       <div class="header__menu">
         <ul class="header__list">
-          <a href="#" class="header__list-link">
+          <a href="#" class="modal__open header__list-link">
             <li class="header__list-item">Главная</li>
           </a>
-          <a href="#" class="header__list-link">
+          <a href="#" class="modal__open header__list-link">
             <li class="header__list-item">О нас</li>
           </a>
-          <a href="#" class="header__list-link">
+          <a href="#" class="modal__open header__list-link">
             <li class="header__list-item">Продукция</li>
           </a>
-          <a href="#" class="header__list-link">
+          <a href="#" class="modal__open header__list-link">
             <li class="header__list-item">Процесс</li>
           </a>
-          <a href="#" class="header__list-link">
+          <a href="#" class="modal__open header__list-link">
             <li class="header__list-item">Надёжность</li>
           </a>
-          <a href="#" class="header__list-link">
+          <a href="#" class="modal__open header__list-link">
             <li class="header__list-item">Клиенты</li>
           </a>
-          <a href="#" class="header__list-link">
+          <a href="#" class="modal__open header__list-link">
             <li class="header__list-item">Связаться с нами</li>
           </a>
         </ul>
-        <button class="header__button">Заказать демо</button>
+        <button type="button" class="modal__open header__button">
+          Заказать демо
+        </button>
       </div>
     </header>
+    <div class="modal">
+      <div class="modal__overlay close"></div>
+      <div class="modal__content">
+        <div class="modal__title">
+          <h2 class="modal__title-title">Пусто :(</h1>
+          <span class="modal__close close">&times;</span>
+        </div>
+        <!-- modal__title -->
+        <p class="modal__text">
+          Это учебный пример и ссылки не работают, но в вашеам проекте они будут
+          активны
+        </p>
+      </div>
+      <!-- modal__content -->
+    </div>
+    <!-- modal -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
