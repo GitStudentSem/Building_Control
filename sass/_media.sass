@@ -12,9 +12,12 @@
     max-width: 980px
   .main
     margin-top: 100px
+    margin-bottom: 130px
     &__image
       &-city
         width: 100%
+  .qualitys
+    margin-bottom: 120px
 @media screen and (max-width: 1000px)
   .header
     max-width: 750px
@@ -40,9 +43,14 @@
     max-width: 750px
   .main
     margin-top: 80px
+    margin-bottom: 110px
     &__text
       font-size: 40px
       line-height: 50px
+  .qualitys
+    margin-bottom: 100px
+  .quality
+    margin: 0
 @media (max-width: 768px)
   .header
     max-width: 460px
@@ -58,11 +66,19 @@
     max-width: 460px
   .main
     margin-top: 60px
+    margin-bottom: 90px
     &__text
       font-size: 27px
       line-height: 40px
     &__buttons
       margin-bottom: 50px
+  .qualitys
+    flex-direction: column
+    align-items: center
+    margin-bottom: 80px
+  .quality
+    width: 80%
+    margin-bottom: 25px
 @media (max-width: 480px)
   .header
     max-width: 300px
@@ -77,6 +93,10 @@
     max-width: 300px
   .main
     padding-top: 40px
+    margin-bottom: 70px
+    &__image
+      &-city
+        margin-bottom: 0
     &__text
       font-size: 21px
       line-height: 26px
@@ -87,3 +107,7 @@
     &__button
       &-demo
         margin-bottom: 15px
+  .qualitys
+    margin-bottom: 60px
+  .quality
+    width: 100%
