@@ -19,9 +19,15 @@
   .qualitys
     margin-bottom: 120px
   .chaos
-    margin-bottom: 140px
+    margin-bottom: 120px
     &__image
       margin: 0 0 100px 0
+  .care
+    &__title
+      font-size: 28px
+      line-height: 40px
+    &__image
+      margin: 25px 0 0 0
 @media screen and (max-width: 1000px)
   .header
     max-width: 750px
@@ -56,11 +62,19 @@
   .quality
     margin: 0
   .chaos
-    margin-bottom: 120px
+    margin-bottom: 100px
     &__image
       margin-bottom: 80px
     &__subtitle
       line-height: 40px
+  .care
+    text-align: center
+    &__title
+      text-align: center
+    &__image
+      display: none
+    &__span
+      background: url(../img/care/bg.png) 50% 15px no-repeat
 @media (max-width: 768px)
   .header
     max-width: 460px
@@ -90,7 +104,7 @@
     width: 80%
     margin-bottom: 25px
   .chaos
-    margin-bottom: 100px
+    margin-bottom: 60px
     &__title
       line-height: 40px
     &__text
@@ -101,6 +115,14 @@
     &__subtitle
       font-size: 24px
       line-height: 30px
+  .care
+    &__title
+      font-size: 26px
+      line-height: 35px
+      margin-top: 0
+    &__subtitle
+      line-height: 28px
+      margin-bottom: 20px
 @media (max-width: 480px)
   .header
     max-width: 300px
@@ -145,3 +167,10 @@
       margin-bottom: 30px
     &__subtitle
       font-size: 23px
+  .care
+    &__title
+      font-size: 22px
+      line-height: 30px
+    &__subtitle
+      font-size: 18px
+      line-height: 25px
