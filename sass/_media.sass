@@ -29,9 +29,13 @@
     &__image
       margin: 25px 0 0 0
   .company
-    margin-bottom: 120px
+    margin-bottom: 100px
     &__images
       margin: 50px 0
+  .about
+    margin-bottom: 120px
+    &__text
+      width: 100%
 @media screen and (max-width: 1000px)
   .header
     max-width: 750px
@@ -83,6 +87,14 @@
     margin-bottom: 100px
     &__images
       margin: 40px 0
+  .about
+    margin-bottom: 100px
+    &__text
+      margin-bottom: 40px
+    &__block
+      margin-bottom: 40px
+      &-image
+        max-width: 30%
 @media (max-width: 768px)
   .header
     max-width: 460px
@@ -133,11 +145,23 @@
       line-height: 28px
       margin-bottom: 20px
   .company
-    margin-bottom: 60px
+    margin-bottom: 40px
     &__images
       margin: 20px 0
     &__image
       margin: 2px 24px
+  .about
+    &__block
+      &-title
+        font-size: 20px
+        text-align: center
+      &-subtitle
+        text-align: center
+      &-image
+        display: none
+    &__text
+      font-size: 21px
+      line-height: 28px
 @media (max-width: 480px)
   .header
     max-width: 300px
@@ -192,3 +216,10 @@
       line-height: 25px
   .company
     margin-bottom: 40px
+  .about
+    &__title
+      line-height: 40px
+    &__block
+      &-title
+        font-size: 18px
+        margin-bottom: 10px
