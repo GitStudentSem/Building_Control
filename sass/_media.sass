@@ -1,15 +1,16 @@
 @media screen and (max-width: 1280px)
   .header
-    max-width: 980px
+    max-width: 90%
     &__name
-      font-size: 20px
+      font-size: 19px
     &__list
       &-link
-        font-size: 15px
-        margin: 0 5px
-
+        font-size: 14px
+        margin: 0 9px 0 0
+    &__button
+      width: 120px
   .container
-    max-width: 980px
+    max-width: 90%
   .main
     margin-top: 100px
     margin-bottom: 130px
@@ -42,9 +43,12 @@
     max-width: 303px
     &__image
       margin-right: 20px
+  .safety
+    margin-bottom: 120px
+    &__more
+      padding: 35px 30px
 @media screen and (max-width: 1000px)
   .header
-    max-width: 750px
     &__list
       display: none
       &-visible
@@ -64,7 +68,7 @@
   .burger
     display: block
   .container
-    max-width: 750px
+    max-width: 90%
   .main
     margin-top: 80px
     margin-bottom: 110px
@@ -74,6 +78,7 @@
   .qualitys
     margin-bottom: 100px
   .quality
+    width: 30%
     margin: 0
   .chaos
     margin-bottom: 100px
@@ -84,6 +89,7 @@
   .care
     text-align: center
     &__title
+      margin-top: 0
       text-align: center
     &__image
       display: none
@@ -110,9 +116,14 @@
     max-width: 49%
     &:nth-last-child(-n+3)
       display: none
+  .safety
+    margin-bottom: 100px
+    &__more
+      padding: 30px 15px
+      &-text
+        text-align: center
 @media (max-width: 768px)
   .header
-    max-width: 460px
   .modal
     &__content
       left: 20%
@@ -122,7 +133,7 @@
         font-size: 40px
         line-height: 60px
   .container
-    max-width: 460px
+    max-width: 90%
   .main
     margin-top: 60px
     margin-bottom: 90px
@@ -192,9 +203,15 @@
     &__text
       &-subtitle
         font-size: 14px
+  .safety
+    &__quality
+      flex-direction: column
+      align-items: center
+      margin-bottom: 50px
+    &__more
+      padding: 20px 10px
 @media (max-width: 480px)
   .header
-    max-width: 300px
     &__button
       display: none
   .modal
@@ -203,7 +220,7 @@
     &__text
       line-height: 27px
   .container
-    max-width: 300px
+    max-width: 90%
   .main
     padding-top: 40px
     margin-bottom: 70px
@@ -267,3 +284,11 @@
     &__other
       margin-top: 0
       line-height: 28px
+  .safety
+    &__more
+      display: flex
+      flex-direction: column
+      &-image
+        margin-bottom: 20px
+      &-text
+        margin-bottom: 20px
