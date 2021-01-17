@@ -13,7 +13,7 @@
   .container
     max-width: 90%
   .main
-    margin-top: 100px
+    margin-top: 90px
     margin-bottom: 130px
     &__image
       &-city
@@ -21,7 +21,7 @@
   .qualitys
     margin-bottom: 120px
   .chaos
-    margin-bottom: 120px
+    margin-bottom: 100px
     &__image
       margin: 0 0 100px 0
   .care
@@ -48,8 +48,31 @@
     margin-bottom: 120px
     &__more
       padding: 35px 30px
+  .device
+    padding: 100px 0 100px 0
+    margin-bottom: 120px
+    &__list
+      list-style-type: none
+      padding: 0
+    &__item
+      margin-bottom: 50px
+    &__description
+      text-align: center
+      max-width: 100%
+    &__image
+      display: none
+    &__buttons
+      width: 350px
+      margin: 0px auto 50px auto
+  .work
+    &__block
+      max-width: 600px
+    &__left
+      &-text
+        margin: 0 0 70px 0
 @media screen and (max-width: 1000px)
   .header
+    padding: 20px 5% 20px 5%
     &__list
       display: none
       &-visible
@@ -57,7 +80,7 @@
         flex-direction: column
         align-items: flex-end
         position: absolute
-        top: 74px
+        top: 64px
         right: 0
         height: 100vh
         width: 100%
@@ -71,7 +94,7 @@
   .container
     max-width: 90%
   .main
-    margin-top: 80px
+    margin-top: 50px
     margin-bottom: 110px
     &__text
       font-size: 40px
@@ -82,7 +105,7 @@
     width: 30%
     margin: 0
   .chaos
-    margin-bottom: 100px
+    margin-bottom: 80px
     &__image
       margin-bottom: 80px
     &__subtitle
@@ -106,8 +129,10 @@
       margin-bottom: 40px
     &__block
       margin-bottom: 40px
+      &-text
+        max-width: 500px
       &-image
-        max-width: 30%
+        max-width: 50%
   .delivery
     margin-bottom: 100px
     &__other
@@ -124,22 +149,22 @@
       &-text
         text-align: center
   .device
-    padding: 100px 0 100px 0
-    &__list
-      list-style-type: none
-      padding: 0
-    &__item
-      margin-bottom: 50px
-    &__description
-      text-align: center
+    margin-bottom: 80px
+  .work
+    flex-direction: column
+    &__left
       max-width: 100%
+      text-align: center
+    &__block
+      max-width: 90%
+      margin: 0 auto 27px auto
     &__image
       display: none
+    &__number
+      margin-right: 20px
     &__buttons
-      width: 350px
-      margin: 0px auto 50px auto
+      margin: 0 0 0 9%
 @media (max-width: 768px)
-  .header
   .modal
     &__content
       left: 20%
@@ -201,6 +226,8 @@
         text-align: center
       &-image
         display: none
+      &-text
+        max-width: 100%
     &__text
       font-size: 21px
       line-height: 28px
@@ -228,6 +255,9 @@
       padding: 20px 10px
   .device
     padding: 80px 0 20px 0
+    margin-bottom: 80px
+  .work
+    margin-bottom: 80px
 @media (max-width: 480px)
   .header
     &__button
@@ -303,6 +333,9 @@
       margin-top: 0
       line-height: 28px
   .safety
+    &__subtitle
+      font-size: 16px
+      line-height: 30px
     &__more
       display: flex
       flex-direction: column
@@ -312,6 +345,28 @@
         margin-bottom: 20px
   .device
     padding: 60px 0 10px 0
+    margin-bottom: 60px
+    &__buttons
+      width: 100%
+      margin: 0 0 30px 0
+      display: flex
+      flex-wrap: wrap
+    &__button
+      margin: 0 auto 20px auto
+    &__description
+      &-title
+        font-size: 30px
+        line-height: 36px
+        margin: 0 0 40px 0
+  .work
+    margin-bottom: 60px
+    &__left
+      &-title
+        font-size: 28px
+      &-text
+        font-size: 16px
+        margin-bottom: 50px
+        line-height: 30px
     &__buttons
       width: 100%
       margin: 0
