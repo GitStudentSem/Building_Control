@@ -25,4 +25,17 @@ $(function () {
       });
     };
   element.on("click", func);
+
+  // свайпер
+  var mySwiper = new Swiper(".swiper-container", {
+    // Optional parameters
+    loop: true,
+
+    // If we need pagination
+    pagination: {
+      el: ".swiper__pagination",
+      type: "bullets",
+      clickable: "true",
+    },
+  });
 });

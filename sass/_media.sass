@@ -70,6 +70,8 @@
     &__left
       &-text
         margin: 0 0 70px 0
+  .why
+    margin-bottom: 110px
 @media screen and (max-width: 1000px)
   .header
     padding: 20px 5% 20px 5%
@@ -138,6 +140,8 @@
     &__other
       font-size: 18px
       margin-top: 20px
+      &-bg
+        background: url(../img/delivery/bg.png) 0px 13px no-repeat
   .material
     max-width: 49%
     &:nth-last-child(-n+3)
@@ -164,6 +168,22 @@
       margin-right: 20px
     &__buttons
       margin: 0 0 0 9%
+  .why
+    margin-bottom: 90px
+    &__middle
+      flex-direction: column
+      margin-bottom: 100px
+    &__qualitys
+      max-width: 100%
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+    &__quality
+      width: 48%
+      &-img
+        margin-right: 20px
+    &__slider
+      max-width: 100%
 @media (max-width: 768px)
   .modal
     &__content
@@ -258,6 +278,10 @@
     margin-bottom: 80px
   .work
     margin-bottom: 80px
+  .why
+    margin-bottom: 70px
+    &__middle
+      margin-bottom: 70px
 @media (max-width: 480px)
   .header
     &__button
@@ -374,3 +398,32 @@
       flex-wrap: wrap
     &__button
       margin: 0 auto 20px auto
+  .why
+    margin-bottom: 50px
+    &__top
+      &-title
+        font-size: 30px
+    &__middle
+      margin-bottom: 50px
+    &__quality
+      width: 100%
+      flex-direction: column
+      text-align: center
+    &__slider
+      padding: 10px
+    &__bottom
+      flex-direction: column
+      &-block
+        width: 100%
+      &-image
+        margin-bottom: 5px
+  .swiper
+    &__text
+      font-size: 20px
+      line-height: 30px
+    &__person
+      &-name
+        margin-bottom: 5px
+    &-pagination
+      &-bullets
+        transform: translateX(-25px)
