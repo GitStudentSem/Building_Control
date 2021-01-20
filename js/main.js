@@ -6,6 +6,7 @@ $(function () {
       .querySelector(".header__list")
       .classList.toggle("header__list-visible");
   });
+
   // Бургер кнопка
   (function () {
     const burgerBtn = document.querySelector(".burger");
@@ -26,16 +27,21 @@ $(function () {
     };
   element.on("click", func);
 
-  // свайпер
+  // Свайпер
   var mySwiper = new Swiper(".swiper-container", {
     // Optional parameters
     loop: true,
 
-    // If we need pagination
+    // Настройка точек навигации свайпера
     pagination: {
       el: ".swiper__pagination",
       type: "bullets",
       clickable: "true",
     },
+  });
+
+  // Отключение телепортации наверх у ссылок
+  $(".modal__open").click(function (e) {
+    e.preventDefault();
   });
 });
