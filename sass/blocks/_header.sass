@@ -17,6 +17,8 @@
     display: flex
     align-items: center
     text-decoration: none
+    &:focus
+      outline: 2px solid blue
   &__name
     font-family: $mainFont
     font-style: normal
@@ -46,6 +48,8 @@
       transition: linear .3s
       &:hover
         color: #036FC7
+      &:focus
+        outline: 2px solid blue
   &__button
     font-family: "Arial", sans-serif
     font-size: 15px
@@ -53,6 +57,8 @@
     height: 34px
     width: 143px
     margin-top: 4px
+    &:focus
+      outline: 2px solid blue
 
 .burger
   display: none
